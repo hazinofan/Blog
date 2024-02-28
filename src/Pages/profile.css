@@ -1,0 +1,29 @@
+
+
+.profile_down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile_down img {
+    margin-bottom: 20px;
+    width: 20%;/* Optional: Add margin below the image */
+  }
+  
+.profile_username{
+    margin: 20px 0;
+}
+
+.profile_username{
+    margin: 20px 0;
+}
+
+.profile_email{
+    margin: 20px 0;
+}
+
+.btn.profile_btn{
+    width: 250px;
+    margin-top: 80px;
+}

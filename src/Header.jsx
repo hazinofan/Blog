@@ -44,7 +44,7 @@ function Header() {
   return (
     <div>
       <header>
-        <Link to={'/'} className='logo'> MyBlog </Link>
+        <Link to={'/'} className='logo'> WebInfo </Link>
         <nav>
           {username ? ( 
             <div className='nav_links'>

@@ -38,7 +38,7 @@ function CreatePost() {
     data.append('file', files[0]); // Use append instead of set
     e.preventDefault();
     console.log(files);
-    await fetch('http://https://blogpage-63cf4afbb619.herokuapp.com//post', {
+    await fetch('http://https://blogpage-63cf4afbb619.herokuapp.com/post', {
       method: 'POST',
       body: data,
       credentials: 'include',

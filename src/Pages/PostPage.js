@@ -10,7 +10,7 @@ function PostPage() {
   useEffect(() => {
     // Check if id is defined before making the fetch request
     if (id) {
-      fetch(`http://localhost:4000/post/${id}`)
+      fetch(`http://https://blogpage-63cf4afbb619.herokuapp.com/post/${id}`)
         .then(response => response.json())
         .then(postInfo => setPostInfo(postInfo))
         .catch(error => console.error('Error fetching post:', error));

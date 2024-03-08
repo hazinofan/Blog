@@ -5,7 +5,7 @@ import Post from '../Post'
 function Index() {
   const [posts, setPosts] = useState([]);
   useEffect(() => {
-    fetch('http://https://blogpage-63cf4afbb619.herokuapp.com//post')
+    fetch('http://https://blogpage-63cf4afbb619.herokuapp.com/post')
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');

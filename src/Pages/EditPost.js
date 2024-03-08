@@ -13,7 +13,7 @@ function EditPost() {
     const [redirect,setRedirect] = useState('')
 
     useEffect(() => {
-        fetch(`http://https://blogpage-63cf4afbb619.herokuapp.com//post/${id}`) // Corrected URL construction
+        fetch(`http://https://blogpage-63cf4afbb619.herokuapp.com/post/${id}`) // Corrected URL construction
           .then(response => {
             if (response.ok) {
               response.json().then(postInfo => {

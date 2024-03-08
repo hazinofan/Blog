@@ -13,7 +13,7 @@ function Header() {
   }, []);
 
   const fetchUserProfile = () => {
-    fetch('http://localhost:4000/profile', {
+    fetch('https://blogpage-63cf4afbb619.herokuapp.com/profile', {
       credentials: 'include',
     })
     .then(response => {
